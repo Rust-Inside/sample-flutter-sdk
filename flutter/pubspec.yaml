@@ -1,0 +1,10 @@
+name: sample_rust_core_flutter
+description: Mobile Flutter bindings for the sample-rust-core Rust library.
+version: 0.2.0
+publish_to: none
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+dependencies:
+  code_assets: ^1.0.0
+  hooks: ^1.0.0
+  ffi: ^2.1.4
