@@ -2,18 +2,18 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-The Flutter SDK lets an iOS or Android app fetch the signed-in user's profile with `account.getMe()`. Rust Inside builds the Rust library for both platforms and bundles the native binaries in the `sample_rust_core_flutter` Dart package. [Rust implementation](https://github.com/Rust-Inside/sample-rust-core/blob/main/src/api.rs)
+The Flutter SDK lets an iOS or Android app fetch the signed-in user's profile with `account.getMe()`. Rust Inside builds the Rust library for both platforms and bundles the native binaries in the `sample_rust_core_flutter` Dart package. [Rust implementation](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 
 ## Add the package to pubspec.yaml
 
-Add the Git dependency to your app's `pubspec.yaml`. The package is in the `flutter` directory at tag `v0.1.0`. [Release v0.1.0](https://github.com/Rust-Inside/sample-flutter-sdk/releases/tag/v0.1.0)
+Add the Git dependency to your app's `pubspec.yaml`. The package is in the `flutter` directory at tag `v0.2.0`. [Release v0.2.0](https://github.com/Rust-Inside/sample-flutter-sdk/releases/tag/v0.2.0)
 
 ```yaml
 dependencies:
   sample_rust_core_flutter:
     git:
       url: https://github.com/Rust-Inside/sample-flutter-sdk.git
-      ref: v0.1.0
+      ref: v0.2.0
       path: flutter
 ```
 

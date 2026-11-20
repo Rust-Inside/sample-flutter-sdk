@@ -2,18 +2,18 @@
 
 [English](README.md) | [한국어](README.ko.md)
 
-iOS와 Android용 Flutter 앱에서 SDK의 `account.getMe()`를 호출하면 로그인한 사용자의 프로필을 받습니다. Rust Inside는 공통 Rust 라이브러리를 두 플랫폼용으로 빌드해 네이티브 바이너리를 `sample_rust_core_flutter` Dart 패키지에 담아 배포합니다. [Rust 구현](https://github.com/Rust-Inside/sample-rust-core/blob/main/src/api.rs)
+iOS와 Android용 Flutter 앱에서 SDK의 `account.getMe()`를 호출하면 로그인한 사용자의 프로필을 받습니다. Rust Inside는 공통 Rust 라이브러리를 두 플랫폼용으로 빌드해 네이티브 바이너리를 `sample_rust_core_flutter` Dart 패키지에 담아 배포합니다. [Rust 구현](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 
 ## pubspec.yaml에 패키지 추가
 
-앱의 `pubspec.yaml`에 Git 의존성을 추가하세요. 패키지는 `v0.1.0` 태그의 `flutter` 디렉터리에 있습니다. [v0.1.0 릴리스](https://github.com/Rust-Inside/sample-flutter-sdk/releases/tag/v0.1.0)
+앱의 `pubspec.yaml`에 Git 의존성을 추가하세요. 패키지는 `v0.2.0` 태그의 `flutter` 디렉터리에 있습니다. [v0.2.0 릴리스](https://github.com/Rust-Inside/sample-flutter-sdk/releases/tag/v0.2.0)
 
 ```yaml
 dependencies:
   sample_rust_core_flutter:
     git:
       url: https://github.com/Rust-Inside/sample-flutter-sdk.git
-      ref: v0.1.0
+      ref: v0.2.0
       path: flutter
 ```
 
