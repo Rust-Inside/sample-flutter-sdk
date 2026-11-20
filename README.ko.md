@@ -1,6 +1,6 @@
 # Sample Rust Core · Flutter SDK
 
-[English](README.md) | [한국어](README.ko.md)
+[English](README.md)
 
 iOS와 Android용 Flutter 앱에서 SDK의 `account.getMe()`를 호출하면 로그인한 사용자의 프로필을 받습니다. Rust Inside는 공통 Rust 라이브러리를 두 플랫폼용으로 빌드해 네이티브 바이너리를 `sample_rust_core_flutter` Dart 패키지에 담아 배포합니다. [Rust 구현](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 

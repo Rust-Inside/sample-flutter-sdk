@@ -1,6 +1,6 @@
 # Sample Rust Core · Flutter SDK
 
-[English](README.md) | [한국어](README.ko.md)
+[한국어](README.ko.md)
 
 The Flutter SDK lets an iOS or Android app fetch the signed-in user's profile with `account.getMe()`. Rust Inside builds the Rust library for both platforms and bundles the native binaries in the `sample_rust_core_flutter` Dart package. [Rust implementation](https://github.com/Rust-Inside/sample-rust-core/blob/v0.2.0/src/api.rs)
 
